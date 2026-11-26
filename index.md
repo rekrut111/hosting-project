@@ -42,16 +42,16 @@
 
 В ходе работы я рассмотрел следующие бесплатные платформы:
 
-1. GitHub Pages
-2. Cloudflare Pages
-3. InfinityFree
-4. Vercel
-5. Netlify
-6. Render
-7. Koyeb
-8. PythonAnywhere
-9. Beget (бесплатный тариф)
-10. AwardSpace
+1. [GitHub Pages](https://pages.github.com/)
+2. [Cloudflare Pages](https://pages.cloudflare.com/)
+3. [InfinityFree](https://www.infinityfree.com/)
+4. [Vercel](https://vercel.com/)
+5. [Netlify](https://www.netlify.com/)
+6. [Render](https://render.com/)
+7. [Koyeb](https://www.koyeb.com/)
+8. [PythonAnywhere](https://www.pythonanywhere.com/)
+9. [Beget](https://beget.com/) (бесплатный тариф)
+10. [AwardSpace](https://www.awardspace.com/)
 
 ---
 
@@ -59,20 +59,22 @@
 
 | № | Платформа | Тип | PHP/MySQL | Лимит трафика | Засыпает? | Реклама | Коммерческое использование |
 |---|-----------|-----|-----------|---------------|-----------|---------|---------------------------|
-| 1 | GitHub Pages | Статика | Нет | 100 ГБ/мес | Нет | Нет | Запрещено |
-| 2 | Cloudflare Pages | Статика + функции | Нет | Не ограничен | Нет | Нет | Разрешено |
-| 3 | InfinityFree | PHP-хостинг | Да | Не ограничен | Нет | Нет | Разрешено |
-| 4 | Vercel | Статика + функции | Нет | 100 ГБ/мес | Нет | Нет | Только личное |
-| 5 | Netlify | Статика + функции | Нет | 100 ГБ/мес | Нет | Нет | Разрешено |
-| 6 | Render | Контейнеры | Нет | 750 ч/мес | Да (15 мин) | Нет | Разрешено |
-| 7 | Koyeb | Контейнеры | Нет | Ограничен | Нет | Нет | Разрешено |
-| 8 | PythonAnywhere | Python | Нет (Python) | Ограничен | Нет | Нет | Разрешено |
-| 9 | Beget | PHP-хостинг | Да | Маленький | Нет | Нет | Разрешено |
-| 10 | AwardSpace | PHP-хостинг | Да | Ограничен | Нет | Нет | Разрешено |
+| 1 | [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) | Статика | Нет | 100 ГБ/мес (мягкий лимит) [citation:9] | Нет | Нет | Запрещено [citation:9] |
+| 2 | [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/limits/) | Статика + функции | Нет | Не ограничен (статика) [citation:10] | Нет | Нет | Разрешено |
+| 3 | [InfinityFree](https://www.infinityfree.com/) | PHP-хостинг | Да | Не ограничен (50k хитов/день) [citation:1] | Нет | Нет | Разрешено |
+| 4 | [Vercel](https://vercel.com/docs/plans/hobby) | Статика + функции | Нет | 100 ГБ/мес [citation:4] | Нет | Нет | Только личное [citation:4] |
+| 5 | [Netlify](https://www.netlify.com/blog/introducing-netlify-free-plan/) | Статика + функции | Нет | 100 ГБ/мес [citation:5] | Нет | Нет | Разрешено |
+| 6 | [Render](https://render.com/docs/free) | Контейнеры | Нет | 750 ч/мес [citation:13] | Да (15 мин) [citation:13] | Нет | Разрешено |
+| 7 | [Koyeb](https://www.koyeb.com/) | Контейнеры | Нет | Ограничен | Нет | Нет | Разрешено |
+| 8 | [PythonAnywhere](https://www.pythonanywhere.com/) | Python | Нет (Python) | Ограничен | Нет | Нет | Разрешено |
+| 9 | [Beget](https://beget.com/) | PHP-хостинг | Да | Маленький | Нет | Нет | Разрешено |
+| 10 | [AwardSpace](https://www.awardspace.com/free-hosting/) | PHP-хостинг | Да | 5 ГБ/мес [citation:7] | Нет | Нет | Разрешено |
 
 ---
 
-## 5. Диаграмма: поддержка технологий
+## 5. Диаграммы
+
+### 5.1. Поддержка PHP/MySQL
 
 ```mermaid
 pie title Поддержка PHP/MySQL среди рассмотренных платформ
